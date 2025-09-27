@@ -1,5 +1,25 @@
-# Sonatrach ROP predition
-<img src="https://github.com/kamel-yamani/sonatrach-rop-predition/blob/main/rop.png" alt="DrillingOperation" width="500" height="500">
-I developed an accurate predictive model to predict the rate of penetration (ROP) in Sonatrach drilling operations. ROP is a crucial parameter that determines the efficiency of drilling operations in the energy sector. Accurately predicting ROP can lead to significant cost savings and improved drilling efficiency. However, predicting ROP is a complex problem that requires the analysis of various drilling parameters, such as the weight on bit, the rotation speed, the mud properties and many others.
+# Sonatrach ROP Prediction
 
-My contribution to this project included data cleaning and processing to eliminate errors and outliers, extraction of the most relevant attributes to predict the ROP, and using an ensemble technique, Adaboost with Random Forest as the base estimator, to train the model. The dataset used for training contained a range of drilling parameters collected during drilling operations in Sonatrach wells during a certain period of time. My model achieved good results in accurately predicting ROP.
+A machine learning project for predicting Remaining Operating Period (ROP) in the Sonatrach context.
+
+## Overview
+
+This project leverages machine learning techniques to forecast ROP, aiding maintenance planning and operational efficiency.
+
+## Features
+
+- Data preprocessing and feature engineering
+- Model training and evaluation
+- Prediction and visualization
+
+## Requirements
+
+- Python 3.x
+- Required libraries listed in `requirements.txt`
+
+## Installation
+
+```bash
+git clone https://github.com/kamel-yamani/sonatrach-rop-predition.git
+cd sonatrach-rop-predition
+pip install -r requirements.txt
